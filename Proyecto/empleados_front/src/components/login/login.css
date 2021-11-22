@@ -1,14 +1,29 @@
+body{
+    background: gainsboro;
+    }
+
+
 #login-container{
-    margin-top: 250%;
+    margin-top: 12%;
 }
-#login-container h2,
+
+#login-container h2, 
 #login-container Button,
-#login-container Form{
+#login-container Form {
     width: 100%;
+    
+
 }
+
 #login-container .Form-Label{
-float: left;
+    float: left;
+    
 }
+
 #login-container Button{
     margin-top: 20px;
-}
+} 
+
+
+
+

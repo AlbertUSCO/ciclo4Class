@@ -8,7 +8,7 @@ exports.login = function(req, res, next){
 
     Usuario.findOne({ usuario: req.body.usuario, pass: hashedpass}, function(err, usuario){
         let response = {
-        token:null
+        token: null
         }
 
         if(usuario !== null){
