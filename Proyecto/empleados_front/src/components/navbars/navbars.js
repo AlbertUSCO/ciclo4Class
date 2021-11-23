@@ -20,12 +20,12 @@ export default class TopMenu extends React.Component {
   }
   render() {
     return (
-      <Navbar fixed="top" id="navbar" bg="success" variant="dark">
+      <Navbar fixed="top" id="navbar" bg="primary" variant="dark">
         <Container>
           <img className="logo" src={Logo} /><br />
           {/*<img className="logo" src= "https://dwglogo.com/wp-content/uploads/2017/09/1460px-React_logo.png"/>*/}
           <Navbar.Brand href="#home">
-            Grupo 14 MisionTic <span id="usuario-sub-brand"></span>
+            Grupo 14 MinTic <span id="usuario-sub-brand"></span>
           </Navbar.Brand>
           <Navbar.Toggle sria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar.nav">
