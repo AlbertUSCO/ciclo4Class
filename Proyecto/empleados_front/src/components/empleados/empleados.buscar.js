@@ -124,8 +124,8 @@ export default class empleadosBuscar extends React.Component {
 
                                         <BootstrapTable
                                             keyField="bt"
-                                            data={this.state.rows}
-                                            columns={this.props.columns}
+                                            data={products}
+                                            columns={columns}
                                             {...paginationTableProps}
                                             {...props.baseProps}
                                         />
